@@ -1,0 +1,18 @@
+#body{
+background-image: url(images\bg-img.jpg);
+background-repeat: no-repeat;
+align-items: center;
+display: block;
+}
+.heading{
+    
+}
+.btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: 50px;
+    max-width: 500px;
+    border: 3px sodid white;
+    background-color: #0A3425;
+}
