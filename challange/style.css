@@ -25,16 +25,6 @@
     text-align: center;
 }
 
-.btn{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
-    
-
-
-  
-
-}
 .button1{
     background-color: white;
     border: 4px solid black;
