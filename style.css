@@ -1,18 +1,53 @@
-#body{
-background-image: url(images\bg-img.jpg);
-background-repeat: no-repeat;
-align-items: center;
-display: block;
+.back{background-image: url("images/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 1200px;
+
 }
-.heading{
-    
+
+
+.heading {
+        font-family: "Rosarivo", cursive;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 3rem;
+        text-align: center;
+              
 }
-.btns{
+
+#intro {
+
+    font-family: "Junge", cursive;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    margin: 50px;
-    max-width: 500px;
-    border: 3px sodid white;
-    background-color: #0A3425;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    
+
+
+  
+
+}
+.button1{
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 200px;
+    height: 5rem;
+
+}
+.button2{
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 200px;
+    height: 5rem;
+
 }
