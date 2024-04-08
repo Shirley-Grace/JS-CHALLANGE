@@ -13,6 +13,7 @@
         font-style: italic;
         font-size: 3rem;
         text-align: center;
+        background-color: beige;
               
 }
 
@@ -24,26 +25,19 @@
     font-weight: 600;
     text-decoration: none;
     text-align: center;
+ 
 }
+ .btn{
+    background-color: olivedrab;
+    text-align: center;
+ }
 
-
-.button1{
+.btn1{
     background-color: rgb(9, 92, 43);
     border: 4px solid black;
     border-radius: 30px;
     width: 200px;
     height: 3rem;
-    font-size: 2rem;
+    font-size: 2rem; 
     
-    
-}
-
-.button2{
-    background-color: rgb(138, 245, 147);
-    border: 4px solid black;
-    border-radius: 30px;
-    width: 200px;
-    height: 3rem;
-    font-size: 2rem;
-
 }
