@@ -2,7 +2,7 @@
 function challange1(){
     return new Promise((resolve, reject) => {
         setTimeout(function () {
-            const challange1Done = false;
+            const challange1Done = true;
             if (challange1Done) {
                 resolve("First one Done!!");
             }
@@ -15,7 +15,7 @@ function challange1(){
 function challange2(){
     return new Promise((resolve, reject) => {
         setTimeout(function () {
-            const challange2Done = true;
+            const challange2Done = false;
             if (challange2Done) {
                 resolve("Second one Done!!");
             }

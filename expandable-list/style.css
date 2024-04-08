@@ -1,0 +1,29 @@
+.container{
+    margin: 50px;
+    background-color: rgb(30, 105, 105);
+    text-align: center;
+    width: 50rem;
+    height: 40rem;
+}
+h1{
+    color: antiquewhite;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+h2{
+    color: antiquewhite;
+    margin-top: 30px;
+    cursor: pointer;
+}
+ul{
+    text-align: center;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+#group-hidden{
+    display: none;
+}
