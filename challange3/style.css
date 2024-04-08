@@ -1,0 +1,15 @@
+.container{
+    margin: 50px;
+    background-color: rgb(30, 105, 105);
+}
+h1{
+    color: antiquewhite;
+    margin-left: 50px;
+
+}
+h2{
+    color: antiquewhite;
+}
+ul{
+    display: none;
+}

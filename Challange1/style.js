@@ -1,18 +1,23 @@
-// // event handler
+// // // event handler
 
-function change() {
-    document.getElementById("intro").innerHTML="Hello World!!";
+// function change() {
+//     document.getElementById("intro").innerHTML="Hello World!!";
     
-}
-function back(){
+// }
+// function back(){
+//     location.reload();
+
+// }
+
+// event listener
+const paragraph = document.getElementById("intro");
+const btn = document.getElementById("btn1");
+const btn1= document.getElementById("btn2")
+
+btn.addEventListener("click",function(){
+   paragraph.textContent= "Hello World !!!!";
+});
+
+btn1.addEventListener("click", () =>{
     location.reload();
-
-}
-
-// // event listener
-// const btn1 = document.getElementById("btn1")
-// const hello = document.getElementById("intro")
-
-// btn1.addEventListener("click", () => {
-//     return "Hello World!!";
-// });
+})
