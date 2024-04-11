@@ -1,13 +1,4 @@
-const group = document.getElementById("group hidden");
+const heading =document.querySelectorAll("heading");
+const list = document.querySelectorAll("list");
 
 
-const listItem = document.getElementsById("parent-list");
-
-listItem.addEventListener("click", (event)=>{
-    if (event.target.tagName === "li"){
-        const subList = event.target.querySelector("group-hidden");
-if(group) {
-    group.classList.toogle('hidden')
-    }  
- }
-});
